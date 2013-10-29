@@ -10,7 +10,7 @@
 		"start":"nodemon index.js",
 		"blanket":{
 			"pattern":[
-				"lib/logging-server.js"
+				"lib/server.js"
 			]
 		}		
 	},
@@ -22,12 +22,15 @@
 		}
 	],  
 	"dependencies":{
-		"lout":"0.5.x",		
-		"furball":"0.3.x",
-		"runrightfast-hapi-server":"git://github.com/runrightfast/runrightfast-hapi-server#0.0.17",
-		"lodash":"2.2.x",
 		"config":"0.4.x",
-		"pkginfo":"0.3.x"
+		"furball":"0.3.x",
+		"handlebars": "1.0.12",
+		"jade": "*",
+		"lodash":"2.2.x",
+		"lout":"0.5.x",		
+		"pkginfo":"0.3.x",
+		"runrightfast-hapi-server":"git://github.com/runrightfast/runrightfast-hapi-server#0.0.17",
+		"runrightfast-osm-ui-hapi-plugin":"git://github.com/runrightfast/runrightfast-osm-ui-hapi-plugin#0.0.1"
 	},
 	"devDependencies":{
 		"grunt":"~0.4.1",
